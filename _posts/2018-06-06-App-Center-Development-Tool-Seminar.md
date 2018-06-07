@@ -4,15 +4,19 @@ title: App Center Development Tool Seminar
 tags: [Seminar, Tool, Github, Dev]
 ---
 
-앱 개발자에게 꼭 필요한 개발툴 사용법
+어플리케이션 개발자에게 꼭 필요한 개발 툴 사용법
 
 #### 1. 서버 기초 지식
+
+
 
 클라이언트(사용자) <-> 웹 서버 : 정적인 웹
 
 클라이언트(사용자) <-> 웹 서버 <-> 어플리케이션 서버 : 동적인 웹
 
 : 로그인 후 사용자 정보 변경, 캐싱 등
+
+
 
 * Socket(프로세스), HTTP(웹) : 통신
 
@@ -30,6 +34,8 @@ tags: [Seminar, Tool, Github, Dev]
 
 
 
+
+
 #### 2. Slack
 
 : 업무와 일상 분할 가능 (카톡과 다른 점)
@@ -41,6 +47,8 @@ tags: [Seminar, Tool, Github, Dev]
 : 워크스페이스(단체) 내의 채널(공지사항, 일정) 기능
 
 : 다양한 플랫폼 지원
+
+
 
 
 
@@ -64,6 +72,8 @@ tags: [Seminar, Tool, Github, Dev]
 
 
 
+
+
 #### 4. Github
 
 : 버전 관리 (버그 대처)
@@ -81,6 +91,7 @@ tags: [Seminar, Tool, Github, Dev]
   : 버그, 개발 예정, 추가기능, 건의사항 등을 관리하는 기능
 
   * Milestone : 마감일 설정 등
+
   * ```git commit -m "fix #1"``` : issue 완료 처리 (commit과 연결 가능)
 
 

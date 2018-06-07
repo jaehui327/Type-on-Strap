@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Sprinter
-feature-img: "assets/img/portfolio/sprinter.png"
-img: "assets/img/pexels/sprinter.png"
+img: "assets/img/portfolio/sprinter.png"
+feature-img: "assets/img/pexels/sprinter.png"
 date: may 2018
 ---
 

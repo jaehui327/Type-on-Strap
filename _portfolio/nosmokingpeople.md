@@ -1,8 +1,8 @@
 ---
 layout: post
 title: No Smoking People
-feature-img: "assets/img/portfolio/noSmoking.png"
-img: "assets/img/pexels/noSmoking.png"
+img: "assets/img/portfolio/noSmoking.png"
+feature-img: "assets/img/pexels/noSmoking.png"
 date: February 2018
 ---
 
