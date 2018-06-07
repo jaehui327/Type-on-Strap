@@ -9,20 +9,20 @@ description: "A website with blog posts and pages" # used by search engines
 theme_settings:
   # Meta
   title: Dev.zhi # blog's title
-  avatar: assets/img/triangle.svg
-  favicon: assets/favicon.ico
+  avatar: assets/img/imgJaehui.png
+  favicon: assets/img/imgJaehui.png
   gravatar: # Email MD5 hash
 
   # Header and footer text
   header_text: > #two or three lines to describe your site
      <p>A person who wants to live harder than anyone else</code> <br> Hi, I'm Dev.zhi</p>
-  header_text_feature_image: assets/img/pexels/triangular.jpeg
+  header_text_feature_image: assets/img/pexels/computer2.jpeg
   footer_text: >
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 
   # Icons
   rss: true  # Make sure you created a feed.xml with feed.xml layout
-  email_address: jaehui327@naver.com # Full email address, e.g. "sam@example.com"
+  email_address: "jaehui327@naver.com" # Full email address, e.g. "sam@example.com"
   behance:
   bitbucket:
   dribbble:
@@ -31,7 +31,7 @@ theme_settings:
   gitlab:
   github: "jaehui327"
   google_plus:
-  instagram:
+  instagram: "zhi__z"
   keybase:
   linkedin:  # Full URL
   pinterest:
