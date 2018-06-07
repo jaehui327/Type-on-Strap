@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
-baseurl: "/Type-on-Strap/assets"
-url: "https://sylhare.github.io"
+baseurl: ""
+url: "https://jaehui327.github.io"
 title: Type on Strap # site's title
 description: "A website with blog posts and pages" # used by search engines
 
@@ -8,10 +8,11 @@ description: "A website with blog posts and pages" # used by search engines
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: Type on Strap # blog's title
+  title: Dev.zhi # blog's title
   avatar: assets/img/triangle.svg
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
+  description: a person who wants to live harder than anyone else
 
   # Header and footer text
   header_text: > #two or three lines to describe your site
