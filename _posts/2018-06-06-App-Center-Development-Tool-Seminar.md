@@ -1,7 +1,7 @@
 ---
 layout: post
 title: App Center Development Tool Seminar
-tags: [seminar, tool, github, dev]
+tags: [Seminar, Tool, Github, Dev]
 ---
 
 # App Center Development Tool Seminar
@@ -195,24 +195,4 @@ Date : 2018.06.06
   -> github에서는 각각 repository별로만 관리 가능
 
   -> 팀 프로젝트에서 ios, android, server 의 Issues를 한번에 관리할 수 있음
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
