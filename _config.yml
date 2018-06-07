@@ -2,7 +2,7 @@
 baseurl: ""
 url: "https://jaehui327.github.io"
 title: Dev.zhi # site's title
-description: "A website with blog posts and pages" # used by search engines
+description: "iOS Dev blog" # used by search engines
 
 
 # THEME-SPECIFIC CONFIGURATION

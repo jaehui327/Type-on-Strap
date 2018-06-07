@@ -4,9 +4,7 @@ title: App Center Development Tool Seminar
 tags: [Seminar, Tool, Github, Dev]
 ---
 
-# App Center Development Tool Seminar
-
-Date : 2018.06.06
+앱 개발자에게 꼭 필요한 개발툴 사용법
 
 #### 1. 서버 기초 지식
 
