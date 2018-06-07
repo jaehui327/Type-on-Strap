@@ -1,6 +1,6 @@
 ---
 layout: post
-title: App Center Development Tool Seminar
+title: Development Tool
 tags: [Seminar, Tool, Github, Dev]
 ---
 
