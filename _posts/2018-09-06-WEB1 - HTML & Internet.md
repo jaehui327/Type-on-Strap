@@ -4,6 +4,10 @@ title: WEB1- HTML & Internet
 tags: [Dev, WEB, HTML]
 ---
 
+생활코딩 - WEBn  
+
+[생활코딩 바로가기](https://opentutorials.org/course/3083)
+
 ###1. HTML란
 **1. 쉽다**
 **2. 중요하다**
