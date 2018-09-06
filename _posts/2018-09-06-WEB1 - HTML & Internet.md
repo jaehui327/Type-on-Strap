@@ -35,7 +35,7 @@ Hypertext Markup Language (HTML) is the standard markup language for <strong>cre
 * heading 은 `제목` !  
 * 검색을 통해 빠르게 정보를 알아낼 수 있다면 이미 알고 있는 정보나 다름없습니다. 검색을 두려워 하지 마세요.  
 
-###4. 통계에 기반한 학습  
+### 4. 통계에 기반한 학습  
 * HTML tag는 약 150개, *다 외워야 할까요?*  
   [구글에서 웹페이지를 분석한 결과](https://advancedwebranking.com/html/)  
   통계에 따르면 26개 정도의 태그를 사용하는 웹 사이트가 가장 많습니다.  
@@ -48,7 +48,7 @@ Hypertext Markup Language (HTML) is the standard markup language for <strong>cre
   8000번째 단어가 2미터 키를 가진 사람이라면 적자는 지구의 지름보다 3000km 더 깁니다.  
 * 공부를 할 때, 통계를 기반으로 공부방향을 스스로 설정해보는건 어떨까요?  
 
-###5. 줄바꿈  
+### 5. 줄바꿈  
 1. `<br>`   
    무엇인가를 설명하지 않는 태그들은 감싸야하는 컨텐츠가 없기 때문에 태그를 닫지 않는다는 규칙이 있습니다.  
 2. `<p></p>`  
@@ -60,7 +60,7 @@ Hypertext Markup Language (HTML) is the standard markup language for <strong>cre
 <p style="margin-top:45px;">
 ```
 
-###6. 부모자식과 목록  
+### 6. 부모자식과 목록  
 * `<ul>` (unordered list)  
   다른 목록과 구분할 수 있도록 경계가 필요할 때 사용합니다.  
 ```html
@@ -121,10 +121,10 @@ li 태그는 ul 태그를 꼭 필요로 합니다. ul 태그 역시 li 태그가
 
 * 공부를 하면 이렇게 눈이 밝아지고 시력이 좋아집니다. 예전에는 보이지 않았던 것이 보입니다.  
 
-###8. 링크  
+### 8. 링크  
 ```html
 <a href="https://www.w3.org/TR/html5/" target="_blank" title="html5 specification">Hypertext Markup Language (HTML)</a>
 ```
-###9. 원시웹  
+### 9. 원시웹  
 [세계 최초의 웹페이지](http://info.cern.ch)  
 
