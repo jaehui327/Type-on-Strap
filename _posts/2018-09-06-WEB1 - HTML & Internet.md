@@ -60,6 +60,7 @@ Hypertext Markup Language (HTML) is the standard markup language for <strong>cre
 <p style="margin-top:45px;">
 ```
 
+
 ### 6. 부모자식과 목록  
 * `<ul>` (unordered list)  
   다른 목록과 구분할 수 있도록 경계가 필요할 때 사용합니다.  
@@ -75,7 +76,6 @@ Hypertext Markup Language (HTML) is the standard markup language for <strong>cre
   <li>sorialgi</li>
 </ul>
 ```
-
 li 태그는 ul 태그를 꼭 필요로 합니다. ul 태그 역시 li 태그가 없다면 존재 가치가 없습니다. 이 둘은 서로 아주 밀접한 관계입니다.  
 * `<ol>` (ordered list)
 ```html
