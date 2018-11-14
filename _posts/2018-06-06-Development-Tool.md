@@ -10,18 +10,23 @@ tags: [Seminar, Tool, Github, Dev]
 개발자에겐 역시 협업은 뗄레야 뗄 수 없는 존재!
 협업에 도움이 되는 툴 위주로 설명해주셨으니, 참고하면 좋을 것 같다.
 
-### 1. 서버 기초 지식  
-> client(user) <-> web server : 정적인 웹  
-> client(user) <-> web server <-> application server : 동적인 웹   
-> -> 로그인 후 사용자 정보 변경, 캐싱 등이 필요할 때 사용한다.
-
-* Socket(process), HTTP(web) : 공통점은 통신!  
-  * **Socket**  
-    양방향 통신이 가능하다. 주고 받는 것이 가능하다는 말이다.  
-    연결 유지, 통신 대기가 가능하다.  
-  * **HTTP**  
-    일회성 통신만 가능하다. 보내거나, 받거나, 일회성으로 통신을 한다.  
-    GET, POST 등의 명령을 하면 **Request->, <-response 후 연결이 끊겨** 버리기 때문에 소통이 불가능하다.
+<h3> 1. 서버 기초 지식  </h3>
+<p>client(user) <-> web server : 정적인 웹  <br />
+client(user) <-> web server <-> application server : 동적인 웹   <br />
+-> 로그인 후 사용자 정보 변경, 캐싱 등이 필요할 때 사용한다. </p>
+<p>
+<ul>
+  <li>Socket(process), HTTP(web) : 공통점은 통신!  </li>
+  <ul>
+    <li> <strong>Socket</strong> </li>
+    양방향 통신이 가능하다. 주고 받는 것이 가능하다는 말이다. <br />
+    연결 유지, 통신 대기가 가능하다. <br />
+    <li> <strong> HTTP </strong> </li>
+    일회성 통신만 가능하다. 보내거나, 받거나, 일회성으로 통신을 한다. <br />
+    GET, POST 등의 명령을 하면 <strong>Request->, <-response 후 연결이 끊겨</strong> 버리기 때문에 소통이 불가능하다. <br /> 
+  </ul>
+</ul>
+</p>
 
 ### 2. Slack  
 1. **업무와 일상 분할** 가능하다. 퇴근 후 또는 여가 생활 중 카톡으로 일적인 사진이나 문서를 받을 때, 그 말로 할 수 없는 기분.. 에서 조금이나마 벗어날 수 있게 해주는 것 같다 (?) 사실 slack 앱이 있으면 알림이 울리는 건 마찬가지긴 하지만.. 이것은 숙명..
