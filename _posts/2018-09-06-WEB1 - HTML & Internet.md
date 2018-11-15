@@ -3,7 +3,8 @@ layout: post
 title: WEB1- HTML & Internet
 tags: [Dev, WEB, HTML]
 ---
-생활코딩 - WEBn
+생활코딩 - WEBn  
+
 <p>
 <strong><a href="https://opentutorials.org/course/3083" target="_blank" title="생활코딩 - WEBn">생활코딩 - WEBn</a> 은 웹을 통해서 코딩을 배우는 수업이면서, 코딩으로 웹을 만드는 방법에 대한 수업입니다.</strong><br>
 최단거리로 자신에게 필요한 지식을 중심으로 학습 경로를 잡을 수 있습니다. <br>
