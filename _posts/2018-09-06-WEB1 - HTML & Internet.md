@@ -5,10 +5,12 @@ tags: [Dev, WEB, HTML]
 ---
 생활코딩 - WEBn  
 
-<p><strong><a href="https://opentutorials.org/course/3083" target="_blank" title="생활코딩 - WEBn">생활코딩 - WEBn</a> 은 웹을 통해서 코딩을 배우는 수업이면서, 코딩으로 웹을 만드는 방법에 대한 수업</strong>입니다. <br><br>
-<img src="../assets/img/CodingEverybody.png"></p>
+<p>
+<strong><a href="https://opentutorials.org/course/3083" target="_blank" title="생활코딩 - WEBn">생활코딩 - WEBn</a> 은 웹을 통해서 코딩을 배우는 수업이면서, 코딩으로 웹을 만드는 방법에 대한 수업</strong>입니다. <br><br>
+<img src="http://jaehui-blog.s3-website.ap-northeast-2.amazonaws.com/img180906/coding.jpg"></p>
 
-<p>그 중 첫번째인 <strong><a href="https://opentutorials.org/course/3084" target="_blank" title="WEB1 - HTML & Internet">WEB1 - HTML & Internet</a></strong> 강의를 정리해봤습니다. <br><br>
+<p>
+그 중 첫번째인 <strong><a href="https://opentutorials.org/course/3084" target="_blank" title="WEB1 - HTML & Internet">WEB1 - HTML & Internet</a></strong> 강의를 정리해봤습니다. <br><br>
 html부터 차근차근 다뤄보면서, <br>
 <strong>현재 이 글도, html로 정리</strong>해볼까 합니다. <br><br>
 그럼 시작합니당 ! <br><br></p>
@@ -17,13 +19,14 @@ html부터 차근차근 다뤄보면서, <br>
 </p>
 <p>
 </p>
+
 <p>
 <strong>이제부터, <br>
 코딩, 웹, 인터넷, 컴퓨터 <br>
 라는 거대한 주제에 대한 탐험</strong>을 시작합니다. <br><br>
 여행에 앞서 상상력이 필요합니다! <br><br>
 지금부터 자신을 <strong>나의 문제를 코딩으로 해결하려는 엔지니어</strong>라고 생각해주세요. <br><br>
-<img src="../assets/img/engineer.jpeg"></p>
+<img src="http://jaehui-blog.s3-website.ap-northeast-2.amazonaws.com/img180906/engineer.jpeg"></p>
 
 
 <p>어떤 문제가 우리 삶에 중요하고 심각할수록, <br>
@@ -40,6 +43,7 @@ HTML은 <strong>두가지 면</strong>에서 중요합니다. <br>
 중요한 일입니다. <br><br>
 쉽다고 사소하고 하찮다고 생각하지 마세요. <br>
 <strong>쉬운 것이 가장 중요하고 기본적인 것</strong>입니다. <br><br></p>
+
 <p>
 또한 웹의 좋은 점은 <br><br>
 <strong><u>퍼블릭 도메인</u>(Public Domain)</strong> 이라는 점~<br><br>
@@ -48,6 +52,7 @@ HTML은 <strong>두가지 면</strong>에서 중요합니다. <br>
 그 덕에 웹은 <strong>누구도 주인이 아니고, 모두가 주인</strong>입니다. :) <br><br>
 웹은 빨리 발전하진 못했지만, 오랫동안 발전했고, <br>
 앞으로도 꾸준히 발전할 것으로 보입니다.<br><br></p>
+
 <p>
 <h3>실습환경 준비</h3>
 코딩을 하기 위해서는 에디터(Editor)라는 프로그램이 필요합니다.<br><br>
@@ -58,7 +63,8 @@ HTML은 <strong>두가지 면</strong>에서 중요합니다. <br>
 옷을 살 때 붙어 있는 것이 태그죠. <br>
 태그가 하는 역할이 무엇인가요? <br><br>
 그 옷을 <strong>설명</strong>합니다. <br><br>
-<img src="../assets/img/tag.jpeg"> </p>
+<img src="http://jaehui-blog.s3-website.ap-northeast-2.amazonaws.com/img180906//tag.jpeg"> </p>
+
 <p>
 strong과 u를 문법적으로 <strong>태그</strong>라고 부릅니다. <br><br>
 앞에 있는 태그를 열리는 태그, <br>
@@ -89,9 +95,11 @@ underline의 첫글자인 u 태그를 사용해봅시다. <br> </p>
 
 <p><code>h1</code>은 어떤 기능일까요? <br><br>
 <code>HTML h1 tag</code> 를 검색해보아요. <br><br></p>
+
 <p><h4>
-    <a href="https://www.w3schools.com/tags/tag_hn.asp" target="_blank" title="HTML h1 tag">검색결과</a> heading 은 <strong>제목</strong>이네요!</h4> 
+<a href="https://www.w3schools.com/tags/tag_hn.asp" target="_blank" title="HTML h1 tag">검색결과</a> heading 은 <strong>제목</strong>이네요!</h4> 
 예제를 봅시당 </p>
+
 <p data-height="265" data-theme-id="0" data-slug-hash="wQeqXd" data-default-tab="html,result" data-user="mipmeypx" data-pen-title="head tag" class="codepen">See the Pen <a href="https://codepen.io/mipmeypx/pen/wQeqXd/">head tag</a> by 김재희 (<a href="https://codepen.io/mipmeypx">@mipmeypx</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
@@ -105,6 +113,7 @@ underline의 첫글자인 u 태그를 사용해봅시다. <br> </p>
 시간 뿐 아니라 돈도 들겠죠 :( <br><br>
 검색을 통해 빠르게 정보를 알아낼 수 있다면 <br>
 이미 알고 있는 정보나 다름없지 않을까요~~ <br><br></p>
+
 <p>
 <h3>통계에 기반한 학습  </h3>
 HTML에 <strong>약 150개의 tag</strong>가 존재하는데, <br>
@@ -121,7 +130,7 @@ HTML에 <strong>약 150개의 tag</strong>가 존재하는데, <br>
 的자입니다.  <br><br>
 1000번째 단어가 2미터 키를 가진 사람이라면 적자는 세계에서 10번째로 높은 빌딩의 높이와 비슷합니다.  <br>
 8000번째 단어가 2미터 키를 가진 사람이라면 적자는 지구의 지름보다 3000km 더 깁니다.  <br><br>
-<strong>공부를 할 때, 통계를 기반으로 공부방향을 스스로 설정해보는건 어떨까요?</strong><br><br></p>  
+<strong>공부를 할 때, 통계를 기반으로 공부방향을 스스로 설정해보는건 어떨까요?</strong><br><br></p> 
 
 <p>
 <h3>줄바꿈 태그 </h3>
@@ -161,7 +170,7 @@ img 태그를 사용할 땐 ,<br>
 <img src="../assets/img/coding.jpg">
 ```
 <p>
-<img src="../assets/img/coding.jpg"> <br><br>
+<img src="http://jaehui-blog.s3-website.ap-northeast-2.amazonaws.com/img180906/coding.jpg"> <br><br>
 저작권에 구속받지 않고<br>
 자유롭게 사용할 수 있는 이미지를 구하고 싶다면 ! <br>
 <code>public domain image</code>로 검색해보세용 <br><br>
@@ -208,11 +217,10 @@ ul 태그 역시 li 태그가 없다면 존재 가치가 없습니다. <br><br>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
 <p>
-<h6>공부를 하면 <br>
+공부를 하면 <br>
 눈이 밝아지고 시력이 좋아집니다. <br><br>
 예전에는 보이지 않았던 것이 보이고, <br>
-들리지 않았던 것들이 들립니다. </h6></p>
-
+들리지 않았던 것들이 들립니다. </p>
 
 <p>
 <h3>HTML 태그의 제왕</h3>
