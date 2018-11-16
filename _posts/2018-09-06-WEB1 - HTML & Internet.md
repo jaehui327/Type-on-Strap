@@ -7,7 +7,7 @@ tags: [Dev, WEB, HTML]
 
 <p>
 <strong><a href="https://opentutorials.org/course/3083" target="_blank" title="생활코딩 - WEBn">생활코딩 - WEBn</a> 은 웹을 통해서 코딩을 배우는 수업이면서, 코딩으로 웹을 만드는 방법에 대한 수업</strong>입니다. <br><br>
-<img src="http://jaehui-blog.s3-website.ap-northeast-2.amazonaws.com/img180906/coding.jpg"></p>
+<img src="http://jaehui-blog.s3-website.ap-northeast-2.amazonaws.com/img180906/CodingEverybody.png"></p>
 
 <p>
 그 중 첫번째인 <strong><a href="https://opentutorials.org/course/3084" target="_blank" title="WEB1 - HTML & Internet">WEB1 - HTML & Internet</a></strong> 강의를 정리해봤습니다. <br><br>
@@ -63,7 +63,7 @@ HTML은 <strong>두가지 면</strong>에서 중요합니다. <br>
 옷을 살 때 붙어 있는 것이 태그죠. <br>
 태그가 하는 역할이 무엇인가요? <br><br>
 그 옷을 <strong>설명</strong>합니다. <br><br>
-<img src="http://jaehui-blog.s3-website.ap-northeast-2.amazonaws.com/img180906//tag.jpeg"> </p>
+<img src="http://jaehui-blog.s3-website.ap-northeast-2.amazonaws.com/img180906/tag.jpeg"> </p>
 
 <p>
 strong과 u를 문법적으로 <strong>태그</strong>라고 부릅니다. <br><br>
