@@ -30,15 +30,14 @@ tags: [Seminar, Tool, Github, Dev]
   로그인 후 사용자 정보 변경, 캐싱 등이 필요할 때 사용한다. 
 </ul><br></p>
 
-
 <p>
 <h4>Socket(process)과 HTTP(web)</h4>
 통신 방식을 두 분류로 구분할 수 있는데, 가장 큰 차이점은 <strong>접속</strong>을 유지하는지의 여부이다. <br>
 <ul>
-  <li> <strong>Socket</strong> </li>
+  <li><strong>Socket</strong></li>
   <strong>양방향</strong> 통신이 가능하다. 즉, 주고 받는 것이 가능! <br>
   연결 유지, 통신 대기가 가능하다. <br><br>
-  <li> <strong> HTTP </strong> </li>
+  <li> <strong> HTTP </strong></li>
   <strong>일회성</strong> 통신만 가능하다. 보내거나, 받거나, 일회성으로 통신을 한다. <br>
   GET, POST 등의 명령을 하면 <strong>Request->, <-response 후 연결이 끊겨</strong> 버리기 때문에 <strong>소통이 불가능</strong>하다.
 </ul><br><br>
@@ -48,7 +47,7 @@ tags: [Seminar, Tool, Github, Dev]
 <h3>2. Slack  </h3><br>
 <img src="https://s3.ap-northeast-2.amazonaws.com/jaehui-blog/img180606/slack.png"><br><br>
 <ol>
-  <li><strong>업무와 일상 분할</strong>이 가능하다. </li>
+  <li><strong>업무와 일상 분할</strong>이 가능하다.</li>
   퇴근 후 또는 여가 생활 중 카톡으로 일적인 사진이나 문서를 받을 때의, 그 말로 형용할 수 없는 기분에서 조금이나마 벗어날 수 있게 해주는 것 같다.<br><br>
   <li>다양한 생산성 <strong>앱을 지원</strong>해준다.</li>
   Github과 연동이 가능하고, 그 이외에도 다양한 앱과도 연동해서 사용할 수 있다. <br><br>
@@ -133,8 +132,8 @@ Github는 Git을 사용할 수 있는 툴이다. <br>
   commit으로 만들지 않은 변경 내용을 임시로 저장하는 기능으로, merge를 원하지 않을 때 사용한다. <br>
   이 명령어를 이용하면 충돌을 피할 수 있다.<br><br>
   <li><strong>revert</strong></li> 
-  삭제하고 싶은 commit의 이전 commit을 불러올 수 있다.
-</p>
+  삭제하고 싶은 commit의 이전 commit을 불러올 수 있다. 
+</ul></p>
 
 ```css
 git revert <commit number>
@@ -143,9 +142,9 @@ git revert <commit number>
 <p>
 위 명령어를 입력하면 revert commit message 작성하여 이전의 commit을 새롭게 commit 한다.<br>
 <ul>
-<li><strong>reset</strong></li> 
-이전 commit 상태로 초기화하는 것이다.
-</p>
+  <li><strong>reset</strong></li> 
+  이전 commit 상태로 초기화하는 것이다.<br>
+</ul></p>
 
 ```css
 git reset --hard <commit number>
@@ -154,18 +153,18 @@ git reset --hard <commit number>
 <p>
 라는 명령어를 입력하여 해당 commit으로 초기화하는 기능이다. <br>
 <ul>
-<li>conflict </li>
-merge 시 remote와 local의 commits가 일치하지 않는 경우 conflict가 발생한다. <br>
-branch 간의 내용이 달라 auto merge가 되지 않는다. <br>
-이 경우에는 수동으로 merge 작업을 해줘야한다. 아래와 같이 충돌이 난다.<br>
+  <li>conflict </li>
+  merge 시 remote와 local의 commits가 일치하지 않는 경우 conflict가 발생한다. <br>
+  branch 간의 내용이 달라 auto merge가 되지 않는다. <br>
+  이 경우에는 수동으로 merge 작업을 해줘야한다. 아래와 같이 충돌이 난다.<br>
 </ul></p>
 
 ```css
-     <<(왼쪽 꺽쇠)...<< HEAD
-     aaa 
-     =====
-     bbb
-     (오른쪽 꺽쇠)>>>>
+<<(왼쪽 꺽쇠)...<< HEAD
+aaa 
+=====
+bbb
+(오른쪽 꺽쇠)>>>>
 ```
 
 <p>
@@ -186,7 +185,9 @@ branch 간의 내용이 달라 auto merge가 되지 않는다. <br>
 rebase -i HEAD~4
 ```
 
+<p>
   라는 명령어를 사용하여 최근 4개의 commit을 볼 수 있다.
+</p>
 
 ```css
 pick
@@ -195,10 +196,12 @@ pick
 sqush // -> 위의 commit과 병합됨
 ```
 
+<p>
   이 때 sqush라는 명령어를 쓰면 바로 위에 있는 commit 과 해당 commit이 병합된다.
+</p>
 
 <p>
-<h4>직접 해보기</h4>  <br>
+<h4>직접 해보기</h4> <br>
 <img src="https://s3.ap-northeast-2.amazonaws.com/jaehui-blog/img180606/terminal.jpeg"><br><br>
 <ul>
   <li>새로운 repository 만들기  </li>
@@ -213,11 +216,10 @@ sqush // -> 위의 commit과 병합됨
 git init
 ```
 
-<ol>
-  <ol>
-  <li>폴더 안의 수정 사항 발생하면 untracked files 이 생겼을 것이다.</li>
-  </ol>
-</ol>
+<p>
+  폴더 안의 수정 사항 발생하면 untracked files 이 생겼을 것이다.<br>
+</p>
+
 
 ```css
 git add .
@@ -226,34 +228,41 @@ git remote add origin <repository 주소>
 git push -u origin master
 ```
 
-하게 되면 origin에 master라는 branch가 생성된다.
+<p>
+이처럼 하게 되면 origin에 master라는 branch가 생성된다.
+</p>
 
+
+<p>
 <ul>
-<li>pull</li>
+  <li>pull</li>
   <ol>
-  <li>repository에서 수정을 하게 되면 local과 remote의 내용의 차이가 생긴다.</li>
-  <li>teminal 해당 폴더에서</li>
+    <li>repository에서 수정을 하게 되면 local과 remote의 내용의 차이가 생긴다.</li>
+    <li>teminal 해당 폴더에서</li>
   </ol>
 </ul>
+</p>
 
 ```css
 git pull
 ```
 
+<p>
 <ul>
-<li>remote와 local에서 같은 파일 수정한다. 이 때 2가지 경우가 발생한다.</li>
+  <li>remote와 local에서 같은 파일 수정한다. 이 때 2가지 경우가 발생한다.</li>
   <ol>
-  <li>conflict 발생 -> 수정</li>
-  <li>auto merge</li>
+    <li>conflict 발생 -> 수정</li>
+    <li>auto merge</li>
   </ol>
 </ul>
+</p>
 
-
+<p>
 <h3>5. Waffle (Issues 관리 도구)</h3>
 <ol>
-<li>여러 프로젝트의 Issues를 한번에 볼 수 있다. </li>
-github에서는 각각 repository별로만 관리 가능해서 같은 어플리케이션이라도 iOS, Android, Server의 Issues를 한번에 관리할 수 없는데, Waffle을 사용하면 가능하다.<br><br>
-<li>팀 프로젝트에서 ios, android, server 의 Issues를 한번에 관리할 수 있기 때문에 편리하다.</li>
-</ol>
+  <li>여러 프로젝트의 Issues를 한번에 볼 수 있다. </li>
+  github에서는 각각 repository별로만 관리 가능해서 같은 어플리케이션이라도 iOS, Android, Server의 Issues를 한번에 관리할 수 없는데, Waffle을 사용하면 가능하다.<br><br>
+  <li>팀 프로젝트에서 ios, android, server 의 Issues를 한번에 관리할 수 있기 때문에 편리하다.</li>
+</ol></p>
 
 
