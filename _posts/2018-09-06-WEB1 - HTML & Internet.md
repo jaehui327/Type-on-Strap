@@ -33,7 +33,7 @@ html부터 차근차근 다뤄보면서, <br>
 그 문제를 해결해주는 공부는 문제로부터 우리를 해방시켜줄 것입니다. <br><br></p>
 
 <p>
-<h3> HTML이란  </h3>
+<h3> HTML이란 </h3>
 HTML은 <strong>두가지 면</strong>에서 중요합니다. <br>
 <ol>
   <li> <strong>쉽습니다.</strong> </li>
@@ -57,24 +57,29 @@ HTML은 <strong>두가지 면</strong>에서 중요합니다. <br>
 <h3>실습환경 준비</h3>
 코딩을 하기 위해서는 에디터(Editor)라는 프로그램이 필요합니다.<br><br>
 <code>html editor</code>를 검색해봅시당 ! <br><br>
-이 수업에서는 <a href="https://atom.io/" target="_blank" title="Atom">Atom</a> 이라는 에디터를 채택했습니다. </p>
+이 수업에서는 <a href="https://atom.io/" target="_blank" title="Atom">Atom</a> 이라는 에디터를 채택했습니다. 
+</p>
+
 <p>
 <h3>태그</h3> 
 옷을 살 때 붙어 있는 것이 태그죠. <br>
 태그가 하는 역할이 무엇인가요? <br><br>
 그 옷을 <strong>설명</strong>합니다. <br><br>
-<img src="http://jaehui-blog.s3-website.ap-northeast-2.amazonaws.com/img180906/tag.jpeg"> </p>
+<img src="http://jaehui-blog.s3-website.ap-northeast-2.amazonaws.com/img180906/tag.jpeg"> 
+</p>
 
 <p>
 strong과 u를 문법적으로 <strong>태그</strong>라고 부릅니다. <br><br>
 앞에 있는 태그를 열리는 태그, <br>
 뒤에 있는 태그를 닫히는 태그라고 <br>
 구분해서 부르기도 합니다. <br>
-닫히는 태그는 태그명 앞에 /를 붙입니다.<br><br></p> 
+닫히는 태그는 태그명 앞에 /를 붙입니다.<br><br>
+</p> 
 
 <p>
 <h4>1.<strong>strong - 강조하기</strong></h4>
-중요한 내용을, 강조표시로 <strong>글씨를 진하게 표시</strong>하고 싶을 때 사용해요!</p>
+중요한 내용을, 강조표시로 <strong>글씨를 진하게 표시</strong>하고 싶을 때 사용해요!
+</p>
 
 <p data-height="265" data-theme-id="0" data-slug-hash="GwmmLw" data-default-tab="html,result" data-user="mipmeypx" data-pen-title="strong tag" class="codepen">See the Pen <a href="https://codepen.io/mipmeypx/pen/GwmmLw/">strong tag</a> by 김재희 (<a href="https://codepen.io/mipmeypx">@mipmeypx</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
@@ -136,7 +141,7 @@ HTML에 <strong>약 150개의 tag</strong>가 존재하는데, <br>
 <h3>줄바꿈 태그 </h3>
 <h4>1. br</h4>
 무엇인가를 설명하지 않는 태그들은 감싸야하는 컨텐츠가 없기 때문에 태그를 닫지 않는다는 규칙이 있습니다.<br>
-<h4>2. p, /p</li></h4>
+<h4>2. p, /p</h4>
 단락(paragraph)을 표현하는 태그입니다.<br>
 하나의 단락을 그룹핑할 수 있도록 열고, 닫는 태그가 존재합니다.<br><br>
 단락을 사용할 때 p 태그가더 좋은 선택입니다.<br>
@@ -160,7 +165,7 @@ img 태그를 사용할 땐 ,<br>
 ```
 
 <p>
-속성의 값인 주소는 이미지의 주소입니다. <br>
+속성의 값인 주소는 이미지의 주소입니다. <br><br>
 <img src="https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7648.png"> <br><br>
 <strong>내 컴퓨터에 있는 이미지</strong>를 표시하고 싶다면 <br>
 어떻게 해야할까요? <br><br>
@@ -174,7 +179,7 @@ img 태그를 사용할 땐 ,<br>
 저작권에 구속받지 않고<br>
 자유롭게 사용할 수 있는 이미지를 구하고 싶다면 ! <br>
 <code>public domain image</code>로 검색해보세용 <br><br>
-<a  href="http://unsplash.com" target="_blank" title="unsplash">unsplash.com</a>도 그런 서비스 중의 하나입니다! <br></p>
+<a  href="http://unsplash.com" target="_blank" title="unsplash">unsplash.com</a>도 그런 서비스 중의 하나입니다! <br><br></p>
 
 <p>
 <h3>부모자식과 목록</h3>
