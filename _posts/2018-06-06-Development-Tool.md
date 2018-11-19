@@ -74,7 +74,8 @@ tags: [Seminar, Tool, Github, Dev]
   mockup 서버란 간단한 작업을 위해 가상의 서버에서 작업하는 것을 말한다. <br><br>
   <li><strong>문서 생성</strong> 기능이 있다. </li>
   <strong>가독성</strong>이 굉장히 높고 레이아웃이 깔끔하다! <br><br>
-  <li>서버 테스트 기능이 있다. </li><br>
+  <li>서버 테스트 기능이 있다. </li>
+</ol><br>
 </p>
 
 <p>
@@ -100,7 +101,7 @@ tags: [Seminar, Tool, Github, Dev]
 </p>
 
 ```css
-   git commit -m "fix #1"
+git commit -m "fix #1"
 ```
 
 <p>
@@ -136,7 +137,7 @@ Github는 Git을 사용할 수 있는 툴이다. <br>
 </ul></p>
 
 ```css
-git revert <commit number>
+git revert <commit number>   
 ```
 
 <p>
@@ -147,7 +148,7 @@ git revert <commit number>
 </ul></p>
 
 ```css
-git reset --hard <commit number>
+git reset --hard <commit number>  
 ```
 
 <p>
@@ -160,12 +161,12 @@ git reset --hard <commit number>
 </ul></p>
 
 ```css
-<<(왼쪽 꺽쇠)...<< HEAD
-aaa 
-=====
-bbb
-(오른쪽 꺽쇠)>>>>
-```
+<<(왼쪽 꺽쇠)...<< HEAD  
+aaa   
+=====  
+bbb  
+(오른쪽 꺽쇠)>>>>  
+``` 
 
 <p>
   aaa 내용과 bbb 내용 둘중에 원하는 내용만 남겨두고 삭제하면 된다.<br>
@@ -182,7 +183,7 @@ bbb
 </p>
 
 ```css
-rebase -i HEAD~4
+rebase -i HEAD~4  
 ```
 
 <p>
@@ -190,10 +191,10 @@ rebase -i HEAD~4
 </p>
 
 ```css
-pick
-pick
-pick
-sqush // -> 위의 commit과 병합됨
+pick  
+pick  
+pick  
+sqush // -> 위의 commit과 병합됨  
 ```
 
 <p>
@@ -212,26 +213,25 @@ sqush // -> 위의 commit과 병합됨
 </ul>
 </p>
 
-```css
-git init
-```
+```css  
+git init  
+```  
 
 <p>
-  폴더 안의 수정 사항 발생하면 untracked files 이 생겼을 것이다.<br>
+폴더 안의 수정 사항 발생하면 untracked files 이 생겼을 것이다.<br>
 </p>
 
 
 ```css
-git add .
-git commit -m "commit message"
-git remote add origin <repository 주소>
-git push -u origin master
+git add . 
+git commit -m "commit message"  
+git remote add origin <repository 주소>  
+git push -u origin master  
 ```
 
 <p>
 이처럼 하게 되면 origin에 master라는 branch가 생성된다.
 </p>
-
 
 <p>
 <ul>
@@ -244,7 +244,7 @@ git push -u origin master
 </p>
 
 ```css
-git pull
+git pull  
 ```
 
 <p>
