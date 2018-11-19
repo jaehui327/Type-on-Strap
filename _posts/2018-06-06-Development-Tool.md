@@ -13,6 +13,7 @@ tags: [Seminar, Tool, Github, Dev]
 
 <p>
 <h3> 1. 서버 기초 지식  </h3>
+<h4>정적인 웹과 동적인 웹</h4>
 <ul>
   <li><strong>정적</strong>인 웹</li>
   <strong>client</strong>(user) <-> <strong>web server</strong> <br>
@@ -23,21 +24,19 @@ tags: [Seminar, Tool, Github, Dev]
   서버는 사용자의 요청을 해석하여 데이터를 가공한 후 생성되는 웹페이지를 보여준다. <br><br>
   사용자는 <strong>상황, 시간, 요청 등에 따라 달라</strong>지는 웹페이지를 보게 된다. <br>
   로그인 후 사용자 정보 변경, 캐싱 등이 필요할 때 사용한다. 
-</ul></p>
+</ul><br><br></p>
 
 <p>
+<h4>Socket(process)과 HTTP(web)</h4>
+통신 방식을 두 분류로 구분할 수 있는데, 가장 큰 차이점은 <strong>접속</strong>을 유지하는지의 여부이다. <br>
 <ul>
-  <li>Socket(process)과 HTTP(web) </li>
-  통신 방식을 두 분류로 구분할 수 있는데, 가장 큰 차이점은 <strong>접속</strong>을 유지하는지의 여부이다. <br>
-  <ul>
-    <li> <strong>Socket</strong> </li>
-    <strong>양방향</strong> 통신이 가능하다. 즉, 주고 받는 것이 가능! <br>
-    연결 유지, 통신 대기가 가능하다. <br><br>
-    <li> <strong> HTTP </strong> </li>
-    <strong>일회성</strong> 통신만 가능하다. 보내거나, 받거나, 일회성으로 통신을 한다. <br>
-    GET, POST 등의 명령을 하면 <strong>Request->, <-response 후 연결이 끊겨</strong> 버리기 때문에 <strong>소통이 불가능</strong>하다. <br> 
-  </ul>
-</ul>
+  <li> <strong>Socket</strong> </li>
+  <strong>양방향</strong> 통신이 가능하다. 즉, 주고 받는 것이 가능! <br>
+  연결 유지, 통신 대기가 가능하다. <br><br>
+  <li> <strong> HTTP </strong> </li>
+  <strong>일회성</strong> 통신만 가능하다. 보내거나, 받거나, 일회성으로 통신을 한다. <br>
+  GET, POST 등의 명령을 하면 <strong>Request->, <-response 후 연결이 끊겨</strong> 버리기 때문에 <strong>소통이 불가능</strong>하다.
+</ul><br><br>
 </p>
 
 <p>
@@ -51,7 +50,9 @@ tags: [Seminar, Tool, Github, Dev]
   민재님께서는 이 점이 가장 좋다고 하셨다. <br><br>
   학생이라면 무료를 찾기 마련인데, 무료임에도 많은 이전 대화와 자료들을 확인할 수 있다! <br>
   <li><strong>워크스페이스(단체)</strong> 내의 <strong>채널(공지사항, 일정)</strong> 기능이 있어, 단체를 분류하고 채널 내에서 게시물의 성격에 따라 분류할 수 있다. </li><br>
-  <li>웹, 모바일앱, 데스크탑앱 등의 <strong>다양한 플랫폼</strong>을 지원한다. </li><br> </p>
+  <li>웹, 모바일앱, 데스크탑앱 등의 <strong>다양한 플랫폼</strong>을 지원한다. </li><br> 
+</ol>
+</p>
 
 <p>
 <h3>3. Postman (서버 필수 툴)  </h3>
@@ -88,6 +89,7 @@ tags: [Seminar, Tool, Github, Dev]
   <li>Milestone로 Issues를 결합하여 마감일을 정하는 등의 활용이 가능하다. </li><br>
   <li>터미널에서 commit과 함께 issue 완료 처리를 하려면 다음과 같은 명령어를 입력하면 된다. </li><br>
 </ol>
+</p>
 
 ```css
    git commit -m "fix #1"
@@ -122,7 +124,8 @@ Github는 Git을 사용할 수 있는 툴이다. <br>
   commit으로 만들지 않은 변경 내용을 임시로 저장하는 기능으로, merge를 원하지 않을 때 사용한다. <br>
   이 명령어를 이용하면 충돌을 피할 수 있다.<br><br>
   <li><strong>revert</strong></li> 
-  삭제하고 싶은 commit의 이전 commit을 불러올 수 있다.</p>
+  삭제하고 싶은 commit의 이전 commit을 불러올 수 있다.
+</p>
 
 ```css
 git revert <commit number>
@@ -132,7 +135,8 @@ git revert <commit number>
 위 명령어를 입력하면 revert commit message 작성하여 이전의 commit을 새롭게 commit 한다.<br>
 <ul>
 <li><strong>reset</strong></li> 
-이전 commit 상태로 초기화하는 것이다.</p>
+이전 commit 상태로 초기화하는 것이다.
+</p>
 
 ```css
 git reset --hard <commit number>
@@ -167,7 +171,7 @@ branch 간의 내용이 달라 auto merge가 되지 않는다. <br>
   merge랑 비슷한 개념으로, commit을 병합하고 commit message를 수정할 수 있다.<br>
   </ul>
 </ul>
-
+</p>
 
 ```css
 rebase -i HEAD~4
