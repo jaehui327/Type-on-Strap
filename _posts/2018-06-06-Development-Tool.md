@@ -11,8 +11,12 @@ tags: [Seminar, Tool, Github, Dev]
 개발자에겐 역시 협업은 뗄레야 뗄 수 없는 존재! <br>
 협업에 도움이 되는 툴 위주로 설명해주셨으니, 참고하면 좋을 것 같다.<br></p>
 
+<p></p>
+<p></p>
+
 <p>
-<h3> 1. 서버 기초 지식  </h3>
+<h3> 1. 서버 기초 지식  </h3> <br>
+<img src="https://s3.ap-northeast-2.amazonaws.com/jaehui-blog/img180606/server.png"><br><br>
 <h4>정적인 웹과 동적인 웹</h4>
 <ul>
   <li><strong>정적</strong>인 웹</li>
@@ -24,7 +28,8 @@ tags: [Seminar, Tool, Github, Dev]
   서버는 사용자의 요청을 해석하여 데이터를 가공한 후 생성되는 웹페이지를 보여준다. <br><br>
   사용자는 <strong>상황, 시간, 요청 등에 따라 달라</strong>지는 웹페이지를 보게 된다. <br>
   로그인 후 사용자 정보 변경, 캐싱 등이 필요할 때 사용한다. 
-</ul><br><br></p>
+</ul><br></p>
+
 
 <p>
 <h4>Socket(process)과 HTTP(web)</h4>
@@ -40,7 +45,8 @@ tags: [Seminar, Tool, Github, Dev]
 </p>
 
 <p>
-<h3>2. Slack  </h3>
+<h3>2. Slack  </h3><br>
+<img src="https://s3.ap-northeast-2.amazonaws.com/jaehui-blog/img180606/slack.png"><br><br>
 <ol>
   <li><strong>업무와 일상 분할</strong>이 가능하다. </li>
   퇴근 후 또는 여가 생활 중 카톡으로 일적인 사진이나 문서를 받을 때의, 그 말로 형용할 수 없는 기분에서 조금이나마 벗어날 수 있게 해주는 것 같다.<br><br>
@@ -55,7 +61,8 @@ tags: [Seminar, Tool, Github, Dev]
 </p>
 
 <p>
-<h3>3. Postman (서버 필수 툴)  </h3>
+<h3>3. Postman (서버 필수 툴)  </h3><br>
+<img src="https://s3.ap-northeast-2.amazonaws.com/jaehui-blog/img180606/postman.png"><br><br>
 <ol>
   <li><strong>HTTP 통신 테스트</strong> 가능하다. </li>
   HTTP는 단방향 통신이기 때문에 postman을 사용하면 매우 편리해질 수 있다.<br><br>
@@ -68,10 +75,12 @@ tags: [Seminar, Tool, Github, Dev]
   mockup 서버란 간단한 작업을 위해 가상의 서버에서 작업하는 것을 말한다. <br><br>
   <li><strong>문서 생성</strong> 기능이 있다. </li>
   <strong>가독성</strong>이 굉장히 높고 레이아웃이 깔끔하다! <br><br>
-  <li>서버 테스트 기능이 있다. </li><br><br>
+  <li>서버 테스트 기능이 있다. </li><br>
+</p>
 
 <p>
-<h3>4. Github  </h3>
+<h3>4. Github  </h3><br>
+<img src="https://s3.ap-northeast-2.amazonaws.com/jaehui-blog/img180606/github.png"><br><br>
 <ol>
   <li><strong>버전 관리</strong>가 가능하다.</li>
   이로써 우리가 얻을 수 있는 장점은 <strong>버그를 대처</strong>할 수 있다는 것이다. <br>
@@ -87,7 +96,7 @@ tags: [Seminar, Tool, Github, Dev]
     <li> 버그, 개발 예정, 추가기능, 건의사항 등을 관리하는 기능으로 아주 유용하다.</li>
   </ul>
   <li>Milestone로 Issues를 결합하여 마감일을 정하는 등의 활용이 가능하다. </li><br>
-  <li>터미널에서 commit과 함께 issue 완료 처리를 하려면 다음과 같은 명령어를 입력하면 된다. </li><br>
+  <li>터미널에서 commit과 함께 issue 완료 처리를 하려면 다음과 같은 명령어를 입력하면 된다. </li>
 </ol>
 </p>
 
@@ -189,7 +198,8 @@ sqush // -> 위의 commit과 병합됨
   이 때 sqush라는 명령어를 쓰면 바로 위에 있는 commit 과 해당 commit이 병합된다.
 
 <p>
-<h4>직접 해보기</h4>  
+<h4>직접 해보기</h4>  <br>
+<img src="https://s3.ap-northeast-2.amazonaws.com/jaehui-blog/img180606/terminal.jpeg"><br><br>
 <ul>
   <li>새로운 repository 만들기  </li>
   <ol>
@@ -197,10 +207,12 @@ sqush // -> 위의 commit과 병합됨
     <li>teminal에서 해당 폴더로 이동한다.</li>
   </ol>
 </ul>
+</p>
 
 ```css
 git init
 ```
+
 <ol>
   <ol>
   <li>폴더 안의 수정 사항 발생하면 untracked files 이 생겼을 것이다.</li>
