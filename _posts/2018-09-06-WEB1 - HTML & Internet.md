@@ -52,7 +52,6 @@ HTML은 <strong>두가지 면</strong>에서 중요합니다. <br>
 그 덕에 웹은 <strong>누구도 주인이 아니고, 모두가 주인</strong>입니다. :) <br><br>
 웹은 빨리 발전하진 못했지만, 오랫동안 발전했고, <br>
 앞으로도 꾸준히 발전할 것으로 보입니다.<br><br></p>
-
 <p>
 <h3>실습환경 준비</h3>
 코딩을 하기 위해서는 에디터(Editor)라는 프로그램이 필요합니다.<br><br>
@@ -62,11 +61,10 @@ HTML은 <strong>두가지 면</strong>에서 중요합니다. <br>
 
 <p>
 <h3>태그</h3> 
-옷을 살 때 붙어 있는 것이 태그죠. <br>
-태그가 하는 역할이 무엇인가요? <br><br>
-그 옷을 <strong>설명</strong>합니다. <br><br>
-<img src="http://jaehui-blog.s3-website.ap-northeast-2.amazonaws.com/img180906/tag.jpeg"> 
-</p>
+옷을 살 때 붙어 있는 것이 태그죠. 태그가 하는 역할이 무엇인가요?<br><br></p>
+<p style="text-align:center;">그 옷을 <strong>설명</strong>합니다. <br><br></p>
+
+<p><img src="http://jaehui-blog.s3-website.ap-northeast-2.amazonaws.com/img180906/tag.jpeg"> </p>
 
 <p>
 strong과 u를 문법적으로 <strong>태그</strong>라고 부릅니다. <br><br>
@@ -85,8 +83,9 @@ strong과 u를 문법적으로 <strong>태그</strong>라고 부릅니다. <br><
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
 <p><h4>2.<u>u - 밑줄(언더라인)</u></h4>
-보다 더 중요한 부분에는 밑줄을 치고 싶어졌어요. <br>
+보다 더 중요한 부분에는 <u>밑줄을 치고</u> 싶어졌어요. <br>
 underline의 첫글자인 u 태그를 사용해봅시다. <br> </p>
+
 
 <p data-height="265" data-theme-id="0" data-slug-hash="aQWWey" data-default-tab="html,result" data-user="mipmeypx" data-pen-title="u tag" class="codepen">See the Pen <a href="https://codepen.io/mipmeypx/pen/aQWWey/">u tag</a> by 김재희 (<a href="https://codepen.io/mipmeypx">@mipmeypx</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
@@ -98,8 +97,9 @@ underline의 첫글자인 u 태그를 사용해봅시다. <br> </p>
 <h1>W3C</h1>
 ```
 
-<p><code>h1</code>은 어떤 기능일까요? <br><br>
-<code>HTML h1 tag</code> 를 검색해보아요. <br><br></p>
+<p style="text-align: center;"><code>h1</code>은 어떤 기능일까요? <br><br>
+<code>HTML h1 tag</code> 를 검색해보아요. </p>
+
 
 <p><h4>
 <a href="https://www.w3schools.com/tags/tag_hn.asp" target="_blank" title="HTML h1 tag">검색결과</a> heading 은 <strong>제목</strong>이네요!</h4> 
@@ -192,7 +192,8 @@ img 태그를 사용할 땐 ,<br>
 <p>
 li 태그는 ul 태그를 꼭 필요로 하고,<br>
 ul 태그 역시 li 태그가 없다면 존재 가치가 없습니다. <br><br>
-이 둘은 서로 아주 밀접한 관계입니다.<br><br></p>
+이 둘은 서로 아주 밀접한 관계입니다.<br></p>
+
 
 
 <p>
@@ -273,7 +274,104 @@ href는 <u>H</u>yperText <u>Ref</u>erence의 약자입니다. <br>
 우리가 이 두 기술을 잘 구분하지 못하는 것은 <br><br>
 웹이 너무나 성공했고,  <br>
 사람들이 웹 때문에 인터넷을 쓰기 시작했기 때문입니다. <br><br>
+<a href="http://info.cern.ch" target="_blank" title="세계 최초의 웹페이지">세계 최초의 웹페이지</a>입니다. <br><br>
+1960년 엘리트 시스템으로 등장한 인터넷이 <br>
+1990년 웹을 만나면서<br>
+본격적인 대중화의 길을 걷기 시작합니다.<br><br>
+</p>
 
+<p><h3>서버와 클라이언트</h3>
+인터넷이 동작하는 기본적인 원리를 알아보겠습니다. <br><br>
+인터넷이 동작하려면, 컴퓨터가 최소 몇 대 있어야 할까요?<br><br></p>
+<p style="text-align:center;">2대입니다.<br>
+2대의 컴퓨터에 각각의 프로그램을 개발합니다.<br><br></p>
+<p><img src="https://s3.ap-northeast-2.amazonaws.com/jaehui-blog/img180906/twomonitor.jpeg"><br><br>
+하나는 웹브라우저,<br>
+하나는 웹서버라는 이름을 붙입니다.<br><br>
+<strong>웹서버</strong>가 설치된 컴퓨터에는 <br>
+<strong>info.cern.ch라는 주소를 부여</strong>합니다.<br>
+또 어떤 디렉토리에 index.html이라는 파일을 저장합니다.<br><br>
+<strong>웹브라우저</strong>가 설치된 컴퓨터의 주소창에<br>
+http://info.cern.ch/index.html이라는 <strong>주소를 입력하고<br>
+엔터를 땅하고 쳐서 이동</strong>합니다!<br><br></p>
+<p>
+<strong>웹브라우저가 설치된 컴퓨터는</strong><br>
+인터넷을 통해서 info.cern.ch라는 주소의 컴퓨터에게 <br>
+전기적인 신호를 보냅니다.<br>
+그 신호 안에는 <strong>'index.html' 파일의 코드를<br>
+원한다고 적혀 있습니다.</strong><br></p>
 
-<a href="http://info.cern.ch" target="_blank" title="세계 최초의 웹페이지">세계 최초의 웹페이지</a>입니다. <br></p>
+<p>
+그럼 info.cern.ch에 설치된<br>
+<strong>웹서버라는 프로그램이</strong><br>
+index.html이라는 파일을 찾습니다.<br>
+그리고 <strong>파일을 읽어 웹브라우저가 설치된 컴퓨터에 신호를 보냅니다.</strong><br><br></p>
 
+<p>
+그럼 웹브라우저가 설치된 컴퓨터에는 index.html 파일의 코드가 도착합니다. <br>
+웹브라우저는 그 코드를 읽어서 화면에 출력합니다.<br><br></p>
+
+<p style="text-align:center;">
+웹브라우저가 깔린 컴퓨터는 <br>
+정보를 요청합니다.<br><br>
+웹서버가 깔린 컴퓨터는 <br>
+정보를 응답합니다.<br><br></p>
+
+<p>
+따라서,<br>
+요청하는 컴퓨터를 <u>클라이언트 컴퓨터</u><br>
+응답하는 컴퓨터를 <u>서버 컴퓨터</u>라고 부르기로 합니다.<br><br>
+서버와 클라이언트는<br>
+인터넷을 이용하는 모든 정보 시스템에 적용되는 문법과 같습니다.<br>
+이것을 이해한다면<br>
+경험이 쌓일수록 인터넷에 대한 이해가 높아질 것입니다.<br><br>
+지금까지 우리는<br>
+HTML이라는 언어로, 웹브라우저(웹 클라이언트) 사용법을 배웠습니다.<br><br>
+이제 웹서버를 배울 것입니다.<br><br>
+낯설고 무섭나요?<br>
+공부의 목적은 익숙해지는 것입니다.<br>
+자꾸 생각하고, 이야기하고, 사용하다 보면 익숙해지게 됩니다.<br><br>
+</p>
+<p>
+<h3>웹호스팅: github page</h3>
+직접 웹서버를 운영하는 것은 쉽지 않기 때문에,<br>
+대행해 주는 회사들이 있습니다.<br>
+인터넷에 연결된 컴퓨터 하나 하나를 호스트라고 하고,<br>
+이런 컴퓨터를 빌려주는 사업을 호스팅이라고 합니다.<br><br>
+수많은 웹 호스팅 업체가 있고<br>
+그 중에서 <a href="http://github.com" target="_blank" title="github">github(http://github.com)</a>의 pages 기능을 이용하는 방법이 있습니당 <br>
+현재 이 페이지가 저의 깃헙 페이지에요 :)<br><br>
+</p>
+
+<p>
+<h3>웹서버 운영하기</h3>
+내 컴퓨터에 웹서버를 설치해서<br>
+누구나 내 컴퓨터에 있는 웹페이지를 볼 수 있도록 해 보겠습니다.<br><br>
+우선 우리가 해야 할 일은<br>
+웹서버라는 프로그램을 설치해야 합니다.<br><br>
+여러 제품 중 우리가 사용할 소프트웨어는 <br>
+아파치입니다.<br><br>
+</p>
+
+<p>
+<h3>맥에 웹서버 설치</h3>
+Bitnami라는 프로그램을 설치해서 진행하겠습니다.<br>
+<code>bitnami MAMP stack</code>라고 검색해보세요.<br><br>
+프로그램을 다운 받을 수 있는 페이지를 찾을 수 있습니다.<br>
+<a href="https://bitnami.com/stack/mamp" target="_blank" title="Bitnami MAMP Stack">(https://bitnami.com/stack/mamp)</a><br><br>
+<u>M</u>ac<br>
+<u>A</u>pache<br>
+<u>M</u>ySQL<br>
+<u>PHP</u>의 약자입니다.<br></p>
+
+<p><h4>웹서버와 HTTP</h4>
+아래의 주소들은 모두 내 컴퓨터에 있는 index.html 파일을 요청하는 주소입니다.<br>
+http://localhost:8080/index.html<br>
+http://127.0.0.1:8080/index.html<br><br>
+localhost와 같이 의미가 있는 이름을 도메인 네임(domain name),<br> 
+127.0.0.1과 같이 번호로 되어 있는 것을 ip 주소(ip address)라고 부릅니다. <br>
+</p>
+<p>이렇게 해서 정보기술의 중추라고 할 수 있는 <br>
+인터넷을 살펴봤습니다.<br><br>
+이번 장은 이렇게 마칩니다. 수고하셨어용 짝짝짝<br><br>
+</p>
