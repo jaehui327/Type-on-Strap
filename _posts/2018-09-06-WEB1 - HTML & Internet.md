@@ -15,10 +15,7 @@ html부터 차근차근 다뤄보면서, <br>
 <strong>현재 이 글도, html로 정리</strong>해볼까 합니다. <br><br>
 그럼 시작합니당 ! <br><br></p>
 
-<p>
-</p>
-<p>
-</p>
+<p>&nbsp;</p>
 
 <p>
 <strong>이제부터, <br>
@@ -32,18 +29,19 @@ html부터 차근차근 다뤄보면서, <br>
 <p>어떤 문제가 우리 삶에 중요하고 심각할수록, <br>
 그 문제를 해결해주는 공부는 문제로부터 우리를 해방시켜줄 것입니다. <br><br></p>
 
-<p>
 <h3> HTML이란 </h3>
-HTML은 <strong>두가지 면</strong>에서 중요합니다. <br>
-<ol>
+<p>HTML은 <strong>두가지 면</strong>에서 중요합니다.</p>
+
+<p><ol>
   <li> <strong>쉽습니다.</strong> </li>
   <li> <strong>중요합니다. </strong> </li>
-</ol> <br>
+</ol></p>
+
+<p>
 하루에 100번 이상 하는 일이 있다면 그 일은 중요한 일일까요? 아닐까요? <br>
 중요한 일입니다. <br><br>
 쉽다고 사소하고 하찮다고 생각하지 마세요. <br>
 <strong>쉬운 것이 가장 중요하고 기본적인 것</strong>입니다. <br><br></p>
-
 <p>
 또한 웹의 좋은 점은 <br><br>
 <strong><u>퍼블릭 도메인</u>(Public Domain)</strong> 이라는 점~<br><br>
@@ -52,16 +50,14 @@ HTML은 <strong>두가지 면</strong>에서 중요합니다. <br>
 그 덕에 웹은 <strong>누구도 주인이 아니고, 모두가 주인</strong>입니다. :) <br><br>
 웹은 빨리 발전하진 못했지만, 오랫동안 발전했고, <br>
 앞으로도 꾸준히 발전할 것으로 보입니다.<br><br></p>
-<p>
 <h3>실습환경 준비</h3>
-코딩을 하기 위해서는 에디터(Editor)라는 프로그램이 필요합니다.<br><br>
+<p>코딩을 하기 위해서는 에디터(Editor)라는 프로그램이 필요합니다.<br><br>
 <code>html editor</code>를 검색해봅시당 ! <br><br>
-이 수업에서는 <a href="https://atom.io/" target="_blank" title="Atom">Atom</a> 이라는 에디터를 채택했습니다. 
-</p>
+이 수업에서는 <a href="https://atom.io/" target="_blank" title="Atom">Atom</a> 이라는 에디터를 채택했습니다. </p>
 
-<p>
 <h3>태그</h3> 
-옷을 살 때 붙어 있는 것이 태그죠. 태그가 하는 역할이 무엇인가요?<br><br></p>
+<p>옷을 살 때 붙어 있는 것이 태그죠. 태그가 하는 역할이 무엇인가요?<br><br></p>
+
 <p style="text-align:center;">그 옷을 <strong>설명</strong>합니다. <br><br></p>
 
 <p><img src="http://jaehui-blog.s3-website.ap-northeast-2.amazonaws.com/img180906/tag.jpeg"> </p>
@@ -73,25 +69,20 @@ strong과 u를 문법적으로 <strong>태그</strong>라고 부릅니다. <br><
 구분해서 부르기도 합니다. <br>
 닫히는 태그는 태그명 앞에 /를 붙입니다.<br><br>
 </p> 
-
-<p>
 <h4>1.<strong>strong - 강조하기</strong></h4>
-중요한 내용을, 강조표시로 <strong>글씨를 진하게 표시</strong>하고 싶을 때 사용해요!
-</p>
+<p>중요한 내용을, 강조표시로 <strong>글씨를 진하게 표시</strong>하고 싶을 때 사용해요!</p>
 
 <p data-height="265" data-theme-id="0" data-slug-hash="GwmmLw" data-default-tab="html,result" data-user="mipmeypx" data-pen-title="strong tag" class="codepen">See the Pen <a href="https://codepen.io/mipmeypx/pen/GwmmLw/">strong tag</a> by 김재희 (<a href="https://codepen.io/mipmeypx">@mipmeypx</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
-<p><h4>2.<u>u - 밑줄(언더라인)</u></h4>
-보다 더 중요한 부분에는 <u>밑줄을 치고</u> 싶어졌어요. <br>
+<h4>2.<u>u - 밑줄(언더라인)</u></h4>
+<p>보다 더 중요한 부분에는 <u>밑줄을 치고</u> 싶어졌어요. <br>
 underline의 첫글자인 u 태그를 사용해봅시다. <br> </p>
-
 
 <p data-height="265" data-theme-id="0" data-slug-hash="aQWWey" data-default-tab="html,result" data-user="mipmeypx" data-pen-title="u tag" class="codepen">See the Pen <a href="https://codepen.io/mipmeypx/pen/aQWWey/">u tag</a> by 김재희 (<a href="https://codepen.io/mipmeypx">@mipmeypx</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
-<p>
-<h3>태그 추측해보기</h3> </p>
+<h3>태그 추측해보기</h3>
 
 ```html
 <h1>W3C</h1>
@@ -100,10 +91,9 @@ underline의 첫글자인 u 태그를 사용해봅시다. <br> </p>
 <p style="text-align: center;"><code>h1</code>은 어떤 기능일까요? <br><br>
 <code>HTML h1 tag</code> 를 검색해보아요. </p>
 
-
-<p><h4>
+<h4>
 <a href="https://www.w3schools.com/tags/tag_hn.asp" target="_blank" title="HTML h1 tag">검색결과</a> heading 은 <strong>제목</strong>이네요!</h4> 
-예제를 봅시당 </p>
+<p>예제를 봅시당 </p>
 
 <p data-height="265" data-theme-id="0" data-slug-hash="wQeqXd" data-default-tab="html,result" data-user="mipmeypx" data-pen-title="head tag" class="codepen">See the Pen <a href="https://codepen.io/mipmeypx/pen/wQeqXd/">head tag</a> by 김재희 (<a href="https://codepen.io/mipmeypx">@mipmeypx</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
@@ -118,10 +108,8 @@ underline의 첫글자인 u 태그를 사용해봅시다. <br> </p>
 시간 뿐 아니라 돈도 들겠죠 :( <br><br>
 검색을 통해 빠르게 정보를 알아낼 수 있다면 <br>
 이미 알고 있는 정보나 다름없지 않을까요~~ <br><br></p>
-
-<p>
 <h3>통계에 기반한 학습  </h3>
-HTML에 <strong>약 150개의 tag</strong>가 존재하는데, <br>
+<p>HTML에 <strong>약 150개의 tag</strong>가 존재하는데, <br>
 우린 이 태그들을 <strong>다 외워야 할까요?</strong> <br><br>
 <a href="https://advancedwebranking.com/html/" target="_blank" title="구글에서 웹페이지를 분석한 결과">구글에서 웹페이지를 분석한 결과</a>를 보면, <br>
 <strong>26개 정도의 태그</strong>를 사용하는 웹 사이트가 가장 많습니다. <br><br>
@@ -137,12 +125,11 @@ HTML에 <strong>약 150개의 tag</strong>가 존재하는데, <br>
 8000번째 단어가 2미터 키를 가진 사람이라면 적자는 지구의 지름보다 3000km 더 깁니다.  <br><br>
 <strong>공부를 할 때, 통계를 기반으로 공부방향을 스스로 설정해보는건 어떨까요?</strong><br><br></p> 
 
-<p>
 <h3>줄바꿈 태그 </h3>
 <h4>1. br</h4>
-무엇인가를 설명하지 않는 태그들은 감싸야하는 컨텐츠가 없기 때문에 태그를 닫지 않는다는 규칙이 있습니다.<br>
+<p>무엇인가를 설명하지 않는 태그들은 감싸야하는 컨텐츠가 없기 때문에 태그를 닫지 않는다는 규칙이 있습니다.<br></p>
 <h4>2. p, /p</h4>
-단락(paragraph)을 표현하는 태그입니다.<br>
+<p>단락(paragraph)을 표현하는 태그입니다.<br>
 하나의 단락을 그룹핑할 수 있도록 열고, 닫는 태그가 존재합니다.<br><br>
 단락을 사용할 때 p 태그가더 좋은 선택입니다.<br>
 단락에 단락 태그를 사용하는 것이 웹페이지를 정보로서 보다 가치있게 해 주기 때문입니다.<br><br>
@@ -152,9 +139,8 @@ CSS를 이용하면 p태그의 한계를 극복할 수 있습니다.<br></p>
 <p style="margin-top:45px;">
 ```
 
-<p>
 <h4>img 태그</h4>
-img 태그를 사용할 땐 ,<br>
+<p>img 태그를 사용할 땐 ,<br>
 어떤 이미지를 불러올 지에 대한 정보가 필요합니다. <br><br>
 태그 이름만으론 정보가 부족하기 때문에, <br>
 <u>속성(attribute)</u>을 적용해야 합니다! <br><br>
@@ -174,17 +160,16 @@ img 태그를 사용할 땐 ,<br>
 ```html
 <img src="../assets/img/coding.jpg">
 ```
+
 <p>
 <img src="http://jaehui-blog.s3-website.ap-northeast-2.amazonaws.com/img180906/coding.jpg"> <br><br>
 저작권에 구속받지 않고<br>
 자유롭게 사용할 수 있는 이미지를 구하고 싶다면 ! <br>
 <code>public domain image</code>로 검색해보세용 <br><br>
 <a  href="http://unsplash.com" target="_blank" title="unsplash">unsplash.com</a>도 그런 서비스 중의 하나입니다! <br><br></p>
-
-<p>
 <h3>부모자식과 목록</h3>
 <h4>1. ul(unordered list)</h4>
-다른 목록과 구분할 수 있도록 경계가 필요할 때 사용합니다.<br></p>
+<p>다른 목록과 구분할 수 있도록 경계가 필요할 때 사용합니다.<br></p>
 
 <p data-height="265" data-theme-id="0" data-slug-hash="dQRRdj" data-default-tab="html,result" data-user="mipmeypx" data-pen-title="ul tag" class="codepen">See the Pen <a href="https://codepen.io/mipmeypx/pen/dQRRdj/">ul tag</a> by 김재희 (<a href="https://codepen.io/mipmeypx">@mipmeypx</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
@@ -194,16 +179,13 @@ li 태그는 ul 태그를 꼭 필요로 하고,<br>
 ul 태그 역시 li 태그가 없다면 존재 가치가 없습니다. <br><br>
 이 둘은 서로 아주 밀접한 관계입니다.<br></p>
 
-
-
 <p>
 <h4>2. ol(ordered list)</h4></p>
 
 <p data-height="265" data-theme-id="0" data-slug-hash="dQRRmq" data-default-tab="html,result" data-user="mipmeypx" data-pen-title="ol tag" class="codepen">See the Pen <a href="https://codepen.io/mipmeypx/pen/dQRRmq/">ol tag</a> by 김재희 (<a href="https://codepen.io/mipmeypx">@mipmeypx</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
-<p>
-<h3>문서의 구조와 슈퍼스타들</h3> </p>
+<h3>문서의 구조와 슈퍼스타들</h3>
 
 ```html
 <title>WEB1 - html</title>
@@ -228,9 +210,8 @@ ul 태그 역시 li 태그가 없다면 존재 가치가 없습니다. <br><br>
 예전에는 보이지 않았던 것이 보이고, <br>
 들리지 않았던 것들이 들립니다. </p>
 
-<p>
 <h3>HTML 태그의 제왕</h3>
-검색엔진들은 <br>
+<p>검색엔진들은 <br>
 이 태그 덕분에 전세계의 웹을 항해할 수 있고,<br>
 더 좋은 검색결과를 만들 수 있었습니다. <br>
 이 태그가 없다면 검색엔진은 존재하지 않았을 것입니다.<br><br>
@@ -247,7 +228,6 @@ a는 anchor의 약자이고,<br>
 href는 <u>H</u>yperText <u>Ref</u>erence의 약자입니다. <br>
 </p>
 
-
 ```html
 <a href="https://www.w3.org/TR/html5/" target="_blank" title="html5 specification">Hypertext Markup Language (HTML)</a>
 ```
@@ -262,11 +242,10 @@ href는 <u>H</u>yperText <u>Ref</u>erence의 약자입니다. <br>
 그것이 진정한 공부이고<br>
 여러분은 공부를 좋아하고, 잘 하고 있는 거랍니당 <br></p>
 
-<p>
 <h3>원시웹  </h3>
-인터넷과 웹은 같을까요? 다를까요? <br>
+<p>인터넷과 웹은 같을까요? 다를까요? <br></p>
 <h4>Internet VS WEB</h4>
-인터넷이 도시라면 <br>
+<p>인터넷이 도시라면 <br>
 웹은 도시 위에 있는 건물 하나입니다. <br><br>
 인터넷이 도로라면 <br>
 웹은 도로 위를 달리는 자동차 한 대 입니다. <br><br>
@@ -280,11 +259,13 @@ href는 <u>H</u>yperText <u>Ref</u>erence의 약자입니다. <br>
 본격적인 대중화의 길을 걷기 시작합니다.<br><br>
 </p>
 
-<p><h3>서버와 클라이언트</h3>
-인터넷이 동작하는 기본적인 원리를 알아보겠습니다. <br><br>
+<h3>서버와 클라이언트</h3>
+<p>인터넷이 동작하는 기본적인 원리를 알아보겠습니다. <br><br>
 인터넷이 동작하려면, 컴퓨터가 최소 몇 대 있어야 할까요?<br><br></p>
+
 <p style="text-align:center;">2대입니다.<br>
 2대의 컴퓨터에 각각의 프로그램을 개발합니다.<br><br></p>
+
 <p><img src="https://s3.ap-northeast-2.amazonaws.com/jaehui-blog/img180906/twomonitor.jpeg"><br><br>
 하나는 웹브라우저,<br>
 하나는 웹서버라는 이름을 붙입니다.<br><br>
@@ -294,6 +275,7 @@ href는 <u>H</u>yperText <u>Ref</u>erence의 약자입니다. <br>
 <strong>웹브라우저</strong>가 설치된 컴퓨터의 주소창에<br>
 http://info.cern.ch/index.html이라는 <strong>주소를 입력하고<br>
 엔터를 땅하고 쳐서 이동</strong>합니다!<br><br></p>
+
 <p>
 <strong>웹브라우저가 설치된 컴퓨터는</strong><br>
 인터넷을 통해서 info.cern.ch라는 주소의 컴퓨터에게 <br>
@@ -316,7 +298,6 @@ index.html이라는 파일을 찾습니다.<br>
 정보를 요청합니다.<br><br>
 웹서버가 깔린 컴퓨터는 <br>
 정보를 응답합니다.<br><br></p>
-
 <p>
 따라서,<br>
 요청하는 컴퓨터를 <u>클라이언트 컴퓨터</u><br>
@@ -332,9 +313,9 @@ HTML이라는 언어로, 웹브라우저(웹 클라이언트) 사용법을 배�
 공부의 목적은 익숙해지는 것입니다.<br>
 자꾸 생각하고, 이야기하고, 사용하다 보면 익숙해지게 됩니다.<br><br>
 </p>
-<p>
+
 <h3>웹호스팅: github page</h3>
-직접 웹서버를 운영하는 것은 쉽지 않기 때문에,<br>
+<p>직접 웹서버를 운영하는 것은 쉽지 않기 때문에,<br>
 대행해 주는 회사들이 있습니다.<br>
 인터넷에 연결된 컴퓨터 하나 하나를 호스트라고 하고,<br>
 이런 컴퓨터를 빌려주는 사업을 호스팅이라고 합니다.<br><br>
@@ -343,9 +324,8 @@ HTML이라는 언어로, 웹브라우저(웹 클라이언트) 사용법을 배�
 현재 이 페이지가 저의 깃헙 페이지에요 :)<br><br>
 </p>
 
-<p>
 <h3>웹서버 운영하기</h3>
-내 컴퓨터에 웹서버를 설치해서<br>
+<p>내 컴퓨터에 웹서버를 설치해서<br>
 누구나 내 컴퓨터에 있는 웹페이지를 볼 수 있도록 해 보겠습니다.<br><br>
 우선 우리가 해야 할 일은<br>
 웹서버라는 프로그램을 설치해야 합니다.<br><br>
@@ -353,25 +333,28 @@ HTML이라는 언어로, 웹브라우저(웹 클라이언트) 사용법을 배�
 아파치입니다.<br><br>
 </p>
 
-<p>
 <h3>맥에 웹서버 설치</h3>
-Bitnami라는 프로그램을 설치해서 진행하겠습니다.<br>
+<p>Bitnami라는 프로그램을 설치해서 진행하겠습니다.<br>
 <code>bitnami MAMP stack</code>라고 검색해보세요.<br><br>
 프로그램을 다운 받을 수 있는 페이지를 찾을 수 있습니다.<br>
 <a href="https://bitnami.com/stack/mamp" target="_blank" title="Bitnami MAMP Stack">(https://bitnami.com/stack/mamp)</a><br><br>
 <u>M</u>ac<br>
 <u>A</u>pache<br>
 <u>M</u>ySQL<br>
-<u>PHP</u>의 약자입니다.<br></p>
+<u>P</u>HP의 약자입니다.<br></p>
 
-<p><h4>웹서버와 HTTP</h4>
-아래의 주소들은 모두 내 컴퓨터에 있는 index.html 파일을 요청하는 주소입니다.<br>
+<h4>웹서버와 HTTP</h4>
+<p>아래의 주소들은 모두 내 컴퓨터에 있는 index.html 파일을 요청하는 주소입니다.<br>
 http://localhost:8080/index.html<br>
 http://127.0.0.1:8080/index.html<br><br>
 localhost와 같이 의미가 있는 이름을 도메인 네임(domain name),<br> 
 127.0.0.1과 같이 번호로 되어 있는 것을 ip 주소(ip address)라고 부릅니다. <br>
 </p>
+
+<p>&nbsp;</p>
+
 <p>이렇게 해서 정보기술의 중추라고 할 수 있는 <br>
 인터넷을 살펴봤습니다.<br><br>
 이번 장은 이렇게 마칩니다. 수고하셨어용 짝짝짝<br><br>
 </p>
+
