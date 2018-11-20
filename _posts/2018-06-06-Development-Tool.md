@@ -14,41 +14,44 @@ tags: [Seminar, Tool, Github, Dev]
 
 <p>&nbsp;</p>
 
-<p>
-<h3> 1. 서버 기초 지식  </h3> <br>
-<img src="https://s3.ap-northeast-2.amazonaws.com/jaehui-blog/img180606/server.png"><br><br>
+<h3> 1. 서버 기초 지식  </h3>
+
+<p><img src="https://s3.ap-northeast-2.amazonaws.com/jaehui-blog/img180606/server.png"><br><br></p>
+
 <h4>정적인 웹과 동적인 웹</h4>
-<ul>
-  <li><strong>정적인 웹</strong><br>
+
+<p><ul>
+  <li>정적인 웹<br>
   서버에 미리 저장된 파일이 그대로 전달됩니다.<br><br>
   사용자는 서버에 저장된 데이터가 변경되지 않는 한, 고정된 페이지를 보게 됩니다. <br><br>
   <strong>client(user) <-> web server </strong><br><br></li>
-  <li><strong>동적인 웹 </strong><br>
+  <li>동적인 웹 <br>
   동적인 웹에서 서버는 사용자의 요청을 해석하여 데이터를 가공한 후 생성되는 웹페이지를 보여줍니다. <br><br>
-  <strong>사용자는 상황, 시간, 요청 등에 따라 달라지는 웹페이지를 보게 됩니다. </strong><br>
+  사용자는 상황, 시간, 요청 등에 따라 달라지는 웹페이지를 보게 됩니다.<br>
   로그인 후 사용자 정보 변경, 캐싱 등이 필요할 때 주로 사용합니다. <br><br>
   <strong>client(user) <-> web server <-> application server</strong> <br><br></li>
 </ul><br></p>
 
 <h4>Socket(process)과 HTTP(web)</h4>
 <p>통신 방식을 두 분류로 구분할 수 있는데, <br>
-<strong>가장 큰 차이점은 접속 유지 여부입니다.</strong> <br><br></p>
+가장 큰 차이점은 접속 유지 여부입니다.<br></p>
 
 <p><ul>
-  <li><p><strong>Socket</strong><br>
+  <li>Socket<br>
   <strong>양방향 통신</strong> <br>
   즉, 주고 받는 것이 가능합니다! <br>
-  연결 유지와 통신 대기가 가능합니다. <br><br></p></li>
-  <li><p><strong> HTTP </strong><br>
+  연결 유지와 통신 대기가 가능합니다. <br><br></li>
+  <li> HTTP <br>
   <strong>일회성 통신</strong><br>
   보내거나, 받거나, 일회성으로 통신하게 됩니다. <br>
-  GET, POST 등의 명령을 하면 <strong>Request->, <-response 후 연결이 끊겨</strong> 버리기 때문에 <strong>소통이 불가능</strong>합니다.<br><br></p></li>
+  GET, POST 등의 명령을 하면 Request->, <-response 후 연결이 끊겨 버리기 때문에 소통이 불가능합니다.<br><br></li>
 </ul>
 </p>
 
-<p>
+<p>&nbsp;</p>
+
 <h3>2. Slack  </h3><br>
-<img src="https://s3.ap-northeast-2.amazonaws.com/jaehui-blog/img180606/slack.png"><br><br>
+<p><img src="https://s3.ap-northeast-2.amazonaws.com/jaehui-blog/img180606/slack.png"><br><br>
 <ol>
   <li><strong>업무와 일상 분할이 가능합니다.</strong><br>
   퇴근 후 또는 여가 생활 중 카톡으로 일적인 사진이나 문서를 받을 때의, 그 말로 형용할 수 없는 기분에서 조금이나마 벗어날 수 있게 해주는 것 같네요 :> <br><br></li>
@@ -62,9 +65,10 @@ tags: [Seminar, Tool, Github, Dev]
 </ol>
 </p>
 
-<p>
+<p>&nbsp;</p>
+
 <h3>3. Postman (서버 필수 툴)  </h3><br>
-<img src="https://s3.ap-northeast-2.amazonaws.com/jaehui-blog/img180606/postman.png"><br><br>
+<p><img src="https://s3.ap-northeast-2.amazonaws.com/jaehui-blog/img180606/postman.png"><br><br>
 <ol>
   <li><strong>HTTP 통신 테스트 가능합니다. </strong><br>
   HTTP는 단방향 통신이기 때문에 postman을 사용하면 매우 편리해질 수 있습니다.<br><br></li>
@@ -81,11 +85,10 @@ tags: [Seminar, Tool, Github, Dev]
 </ol><br>
 </p>
 
+<p>&nbsp;</p>
 
-
-<p>
 <h3>4. Github  </h3><br>
-<img src="https://s3.ap-northeast-2.amazonaws.com/jaehui-blog/img180606/github.png"><br><br>
+<p><img src="https://s3.ap-northeast-2.amazonaws.com/jaehui-blog/img180606/github.png"><br><br>
 <ol>
   <li><strong>버전 관리가 가능합니다.</strong><br>
   이로써 <u>버그를 대처할 수 있다</u>는 장점을 얻게 되겠죠 :) <br>
@@ -101,15 +104,15 @@ tags: [Seminar, Tool, Github, Dev]
     <li> 버그, 개발 예정, 추가기능, 건의사항 등을 관리하는 기능으로 아주 유용합니다.</li>
   </ul><br></li>
   <li>Milestone로 Issues를 결합하여 마감일을 정하는 등의 활용이 가능합니다. <br><br></li>
-  <li>터미널에서 commit과 함께 issue 완료 처리를 하려면 다음과 같은 명령어를 입력하면 됩니다. <br><br></li>
+  <li>터미널에서 commit과 함께 issue 완료 처리를 하려면 다음과 같은 명령어를 입력하면 됩니다.<br></li>
 </ol>
 </p>
-
-
 
 ```css
 git commit -m "fix #1"
 ```
+
+<p>&nbsp;</p>
 
 <p>
 Github는 Git을 사용할 수 있는 툴입니다. <br>
@@ -144,8 +147,6 @@ Github는 Git을 사용할 수 있는 툴입니다. <br>
   삭제하고 싶은 commit의 이전 commit을 불러올 수 있습니다. <br></li>
 </ul></p>
 
-
-
 ```css
 git revert <commit number>   
 ```
@@ -156,8 +157,6 @@ git revert <commit number>
   <li><strong>reset</strong><br>
   이전 commit 상태로 초기화합니다.<br></li> 
 </ul></p>
-
-
 
 ```css
 git reset --hard <commit number>  
@@ -180,17 +179,15 @@ bbb
 (오른쪽 꺽쇠)>>>>  
 ```
 
-<p>
-  aaa 내용과 bbb 내용 둘중에 원하는 내용만 남겨두고 삭제하면 됩니다.<br>
-<ul>
-  <ul>
+<p>aaa 내용과 bbb 내용 둘중에 원하는 내용만 남겨두고 삭제하면 됩니다.<br></p>
+
+<p><ul>
   <li>diff <br>
   local의 commit과 다른 파일들을 다 보여줍니다. <br><br></li>
   <li>status <br>
   수정된 파일들을 보여줍니다. <br><br></li>
   <li>rebase <br>
-  merge랑 비슷한 개념으로, commit을 병합하고 commit message를 수정할 수 있습니다.<br><br></li>
-  </ul>
+  merge랑 비슷한 개념으로, commit을 병합하고 commit message를 수정할 수 있습니다.<br></li>
 </ul>
 </p>
 
@@ -208,17 +205,16 @@ pick
 sqush // -> 위의 commit과 병합됩니다.
 ```
 
-<p>
-  이 때 sqush라는 명령어를 쓰면 바로 위에 있는 commit 과 해당 commit이 병합됩니다.
-</p>
+<p>이 때 sqush라는 명령어를 쓰면 바로 위에 있는 commit 과 해당 commit이 병합됩니다.</p>
 
-<p>
+<p>&nbsp;</p>
+
 <h4>직접 해보기</h4> <br>
-<img src="https://s3.ap-northeast-2.amazonaws.com/jaehui-blog/img180606/terminal.jpeg"><br><br>
+<p><img src="https://s3.ap-northeast-2.amazonaws.com/jaehui-blog/img180606/terminal.jpeg"><br><br>
 <ul>
   <li>새로운 repository 만들기  </li>
   <ol>
-    <li>local에 폴더 만들기</li>
+    <li>local에 디렉토리를 만듭니다.</li>
     <li>teminal에서 해당 폴더로 이동합니다.</li>
   </ol>
 </ul>
@@ -232,8 +228,6 @@ git init
 <p>
 폴더 안의 수정 사항 발생하면 untracked files 이 생깁니다.<br>
 </p>
-
-
 
 ```css
 git add . 
@@ -256,7 +250,6 @@ git push -u origin master
 </ul>
 </p>
 
-
 ```css
 git pull  
 ```
@@ -273,16 +266,15 @@ git pull
 </ul>
 </p>
 
-<p>
+<p>&nbsp;</p>
+
 <h3>5. Waffle (Issues 관리 도구)</h3>
-<ol>
+<p><ol>
   <li>여러 프로젝트의 Issues를 한번에 볼 수 있습니다. <br>
   github에서는 각각 repository별로만 관리 가능해서 같은 어플리케이션이라도 iOS, Android, Server의 Issues를 한번에 관리할 수 없는데, Waffle을 사용하면 가능하게 됩니다.<br><br></li>
   <li>팀 프로젝트에서 ios, android, server 의 Issues를 한번에 관리할 수 있기 때문에 편리합니다.<br><br></li>
 </ol></p>
 
-
-<p></p>
-<p></p>
+<p>&nbsp;</p>
 
 
