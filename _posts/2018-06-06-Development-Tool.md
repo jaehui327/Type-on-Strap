@@ -98,15 +98,14 @@ tags: [Seminar, Tool, Github, Dev]
   하지만 같은 파일은 수정했을 경우에는 <code>conflict</code>가 발생할 수 있으므로 유의해야 합니다. <br><br></li>
   <li><strong>Issues(버그, 기능, 문의)관리를 할 수 있습니다.</strong><br>
   이 장점 또한 협업에서 유리합니다.<br>
-  <ul>
-    <li> 개발자(dev), 사용자(user) 모두 작성 가능합니다.</li>
-    <li> 버그와 함께 commit을 할 수 있고, 그 issue를 언제까지 마쳐야하는지 일정(기한)도 함께 올릴 수 있습니다. </li>
-    <li> 버그, 개발 예정, 추가기능, 건의사항 등을 관리하는 기능으로 아주 유용합니다.</li>
-  </ul><br></li>
+  개발자(dev), 사용자(user) 모두 작성 가능합니다.<br>
+  버그와 함께 commit을 할 수 있고, 그 issue를 언제까지 마쳐야하는지 일정(기한)도 함께 올릴 수 있습니다.<br>
+  버그, 개발 예정, 추가기능, 건의사항 등을 관리하는 기능으로 아주 유용합니다.<br><br></li>
   <li>Milestone로 Issues를 결합하여 마감일을 정하는 등의 활용이 가능합니다. <br><br></li>
   <li>터미널에서 commit과 함께 issue 완료 처리를 하려면 다음과 같은 명령어를 입력하면 됩니다.<br></li>
 </ol>
 </p>
+
 
 ```css
 git commit -m "fix #1"
@@ -117,8 +116,10 @@ git commit -m "fix #1"
 <p>
 Github는 Git을 사용할 수 있는 툴입니다. <br>
 따라서 <strong>Git 명령어</strong>를 알아야 합니닷 <br><br>
-<a href="https://www.sourcetreeapp.com" target="_blank" title="SourceTree">SourceTree</a>와 같이 관리할 수 있는 툴이 있지만 모든 기능을 포함하고 있진 않기 때문에 Git 명령어를 알아두면 좋다고 하네용 <br>
-<ul> 
+<a href="https://www.sourcetreeapp.com" target="_blank" title="SourceTree">SourceTree</a>와 같이 관리할 수 있는 툴이 있지만 모든 기능을 포함하고 있진 않기 때문에 Git 명령어를 알아두면 좋다고 하네용 <br></p>
+
+<h4>Git 명령어</h4>
+<p><ul> 
   <li> init <br>
   git repository를 생성합니다. <br><br></li>
   <li> local / remote <br>
