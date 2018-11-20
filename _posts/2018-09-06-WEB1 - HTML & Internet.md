@@ -29,6 +29,8 @@ html부터 차근차근 다뤄보면서, <br>
 <p>어떤 문제가 우리 삶에 중요하고 심각할수록, <br>
 그 문제를 해결해주는 공부는 문제로부터 우리를 해방시켜줄 것입니다. <br><br></p>
 
+<p>&nbsp;</p>
+
 <h3> HTML이란 </h3>
 <p>HTML은 <strong>두가지 면</strong>에서 중요합니다.</p>
 
@@ -55,6 +57,8 @@ html부터 차근차근 다뤄보면서, <br>
 <code>html editor</code>를 검색해봅시당 ! <br><br>
 이 수업에서는 <a href="https://atom.io/" target="_blank" title="Atom">Atom</a> 이라는 에디터를 채택했습니다. </p>
 
+<p>&nbsp;</p>
+
 <h3>태그</h3> 
 <p>옷을 살 때 붙어 있는 것이 태그죠. 태그가 하는 역할이 무엇인가요?<br><br></p>
 
@@ -75,12 +79,16 @@ strong과 u를 문법적으로 <strong>태그</strong>라고 부릅니다. <br><
 <p data-height="265" data-theme-id="0" data-slug-hash="GwmmLw" data-default-tab="html,result" data-user="mipmeypx" data-pen-title="strong tag" class="codepen">See the Pen <a href="https://codepen.io/mipmeypx/pen/GwmmLw/">strong tag</a> by 김재희 (<a href="https://codepen.io/mipmeypx">@mipmeypx</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
+<p>&nbsp;</p>
+
 <h4>2.<u>u - 밑줄(언더라인)</u></h4>
 <p>보다 더 중요한 부분에는 <u>밑줄을 치고</u> 싶어졌어요. <br>
 underline의 첫글자인 u 태그를 사용해봅시다. <br> </p>
 
 <p data-height="265" data-theme-id="0" data-slug-hash="aQWWey" data-default-tab="html,result" data-user="mipmeypx" data-pen-title="u tag" class="codepen">See the Pen <a href="https://codepen.io/mipmeypx/pen/aQWWey/">u tag</a> by 김재희 (<a href="https://codepen.io/mipmeypx">@mipmeypx</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+<p>&nbsp;</p>
 
 <h3>태그 추측해보기</h3>
 
@@ -108,6 +116,9 @@ underline의 첫글자인 u 태그를 사용해봅시다. <br> </p>
 시간 뿐 아니라 돈도 들겠죠 :( <br><br>
 검색을 통해 빠르게 정보를 알아낼 수 있다면 <br>
 이미 알고 있는 정보나 다름없지 않을까요~~ <br><br></p>
+
+<p>&nbsp;</p>
+
 <h3>통계에 기반한 학습  </h3>
 <p>HTML에 <strong>약 150개의 tag</strong>가 존재하는데, <br>
 우린 이 태그들을 <strong>다 외워야 할까요?</strong> <br><br>
@@ -125,6 +136,8 @@ underline의 첫글자인 u 태그를 사용해봅시다. <br> </p>
 8000번째 단어가 2미터 키를 가진 사람이라면 적자는 지구의 지름보다 3000km 더 깁니다.  <br><br>
 <strong>공부를 할 때, 통계를 기반으로 공부방향을 스스로 설정해보는건 어떨까요?</strong><br><br></p> 
 
+<p>&nbsp;</p>
+
 <h3>줄바꿈 태그 </h3>
 <h4>1. br</h4>
 <p>무엇인가를 설명하지 않는 태그들은 감싸야하는 컨텐츠가 없기 때문에 태그를 닫지 않는다는 규칙이 있습니다.<br></p>
@@ -138,6 +151,8 @@ CSS를 이용하면 p태그의 한계를 극복할 수 있습니다.<br></p>
 ```html
 <p style="margin-top:45px;">
 ```
+
+<p>&nbsp;</p>
 
 <h4>img 태그</h4>
 <p>img 태그를 사용할 땐 ,<br>
@@ -167,6 +182,9 @@ CSS를 이용하면 p태그의 한계를 극복할 수 있습니다.<br></p>
 자유롭게 사용할 수 있는 이미지를 구하고 싶다면 ! <br>
 <code>public domain image</code>로 검색해보세용 <br><br>
 <a  href="http://unsplash.com" target="_blank" title="unsplash">unsplash.com</a>도 그런 서비스 중의 하나입니다! <br><br></p>
+
+<p>&nbsp;</p>
+
 <h3>부모자식과 목록</h3>
 <h4>1. ul(unordered list)</h4>
 <p>다른 목록과 구분할 수 있도록 경계가 필요할 때 사용합니다.<br></p>
@@ -184,6 +202,8 @@ ul 태그 역시 li 태그가 없다면 존재 가치가 없습니다. <br><br>
 
 <p data-height="265" data-theme-id="0" data-slug-hash="dQRRmq" data-default-tab="html,result" data-user="mipmeypx" data-pen-title="ol tag" class="codepen">See the Pen <a href="https://codepen.io/mipmeypx/pen/dQRRmq/">ol tag</a> by 김재희 (<a href="https://codepen.io/mipmeypx">@mipmeypx</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+<p>&nbsp;</p>
 
 <h3>문서의 구조와 슈퍼스타들</h3>
 
@@ -209,6 +229,8 @@ ul 태그 역시 li 태그가 없다면 존재 가치가 없습니다. <br><br>
 눈이 밝아지고 시력이 좋아집니다. <br><br>
 예전에는 보이지 않았던 것이 보이고, <br>
 들리지 않았던 것들이 들립니다. </p>
+
+<p>&nbsp;</p>
 
 <h3>HTML 태그의 제왕</h3>
 <p>검색엔진들은 <br>
@@ -242,6 +264,8 @@ href는 <u>H</u>yperText <u>Ref</u>erence의 약자입니다. <br>
 그것이 진정한 공부이고<br>
 여러분은 공부를 좋아하고, 잘 하고 있는 거랍니당 <br></p>
 
+<p>&nbsp;</p>
+
 <h3>원시웹  </h3>
 <p>인터넷과 웹은 같을까요? 다를까요? <br></p>
 <h4>Internet VS WEB</h4>
@@ -258,6 +282,8 @@ href는 <u>H</u>yperText <u>Ref</u>erence의 약자입니다. <br>
 1990년 웹을 만나면서<br>
 본격적인 대중화의 길을 걷기 시작합니다.<br><br>
 </p>
+
+<p>&nbsp;</p>
 
 <h3>서버와 클라이언트</h3>
 <p>인터넷이 동작하는 기본적인 원리를 알아보겠습니다. <br><br>
@@ -314,6 +340,8 @@ HTML이라는 언어로, 웹브라우저(웹 클라이언트) 사용법을 배�
 자꾸 생각하고, 이야기하고, 사용하다 보면 익숙해지게 됩니다.<br><br>
 </p>
 
+<p>&nbsp;</p>
+
 <h3>웹호스팅: github page</h3>
 <p>직접 웹서버를 운영하는 것은 쉽지 않기 때문에,<br>
 대행해 주는 회사들이 있습니다.<br>
@@ -324,6 +352,8 @@ HTML이라는 언어로, 웹브라우저(웹 클라이언트) 사용법을 배�
 현재 이 페이지가 저의 깃헙 페이지에요 :)<br><br>
 </p>
 
+<p>&nbsp;</p>
+
 <h3>웹서버 운영하기</h3>
 <p>내 컴퓨터에 웹서버를 설치해서<br>
 누구나 내 컴퓨터에 있는 웹페이지를 볼 수 있도록 해 보겠습니다.<br><br>
@@ -332,6 +362,8 @@ HTML이라는 언어로, 웹브라우저(웹 클라이언트) 사용법을 배�
 여러 제품 중 우리가 사용할 소프트웨어는 <br>
 아파치입니다.<br><br>
 </p>
+
+<p>&nbsp;</p>
 
 <h3>맥에 웹서버 설치</h3>
 <p>Bitnami라는 프로그램을 설치해서 진행하겠습니다.<br>
@@ -343,6 +375,8 @@ HTML이라는 언어로, 웹브라우저(웹 클라이언트) 사용법을 배�
 <u>M</u>ySQL<br>
 <u>P</u>HP의 약자입니다.<br></p>
 
+<p>&nbsp;</p>
+
 <h4>웹서버와 HTTP</h4>
 <p>아래의 주소들은 모두 내 컴퓨터에 있는 index.html 파일을 요청하는 주소입니다.<br>
 http://localhost:8080/index.html<br>
@@ -351,6 +385,7 @@ localhost와 같이 의미가 있는 이름을 도메인 네임(domain name),<br
 127.0.0.1과 같이 번호로 되어 있는 것을 ip 주소(ip address)라고 부릅니다. <br>
 </p>
 
+<p>&nbsp;</p>
 <p>&nbsp;</p>
 
 <p>이렇게 해서 정보기술의 중추라고 할 수 있는 <br>

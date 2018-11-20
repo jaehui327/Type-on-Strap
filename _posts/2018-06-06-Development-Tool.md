@@ -19,21 +19,22 @@ tags: [Seminar, Tool, Github, Dev]
 <img src="https://s3.ap-northeast-2.amazonaws.com/jaehui-blog/img180606/server.png"><br><br>
 <h4>정적인 웹과 동적인 웹</h4>
 <ul>
-  <li><p><strong>정적인 웹</strong><br>
+  <li><strong>정적인 웹</strong><br>
   서버에 미리 저장된 파일이 그대로 전달됩니다.<br><br>
   사용자는 서버에 저장된 데이터가 변경되지 않는 한, 고정된 페이지를 보게 됩니다. <br><br>
-  <strong>client(user) <-> web server </strong><br><br></p></li>
-  <li><p><strong>동적인 웹 </strong><br>
+  <strong>client(user) <-> web server </strong><br><br></li>
+  <li><strong>동적인 웹 </strong><br>
   동적인 웹에서 서버는 사용자의 요청을 해석하여 데이터를 가공한 후 생성되는 웹페이지를 보여줍니다. <br><br>
   <strong>사용자는 상황, 시간, 요청 등에 따라 달라지는 웹페이지를 보게 됩니다. </strong><br>
   로그인 후 사용자 정보 변경, 캐싱 등이 필요할 때 주로 사용합니다. <br><br>
-  <strong>client(user) <-> web server <-> application server</strong> <br><br></p></li>
+  <strong>client(user) <-> web server <-> application server</strong> <br><br></li>
 </ul><br></p>
-<p>
+
 <h4>Socket(process)과 HTTP(web)</h4>
-통신 방식을 두 분류로 구분할 수 있는데, <br>
-<strong>가장 큰 차이점은 접속 유지 여부입니다.</strong> <br><br>
-<ul>
+<p>통신 방식을 두 분류로 구분할 수 있는데, <br>
+<strong>가장 큰 차이점은 접속 유지 여부입니다.</strong> <br><br></p>
+
+<p><ul>
   <li><p><strong>Socket</strong><br>
   <strong>양방향 통신</strong> <br>
   즉, 주고 받는 것이 가능합니다! <br>
@@ -92,13 +93,13 @@ tags: [Seminar, Tool, Github, Dev]
   <li><strong>협업이 편리합니다. </strong><br>
   <code>Branch</code>를 이용하면 각자 맡은 부분은 개발하고 합칠 수 있는 <code>merge</code>라는 기능이 존재합니다.
   하지만 같은 파일은 수정했을 경우에는 <code>conflict</code>가 발생할 수 있으므로 유의해야 합니다. <br><br></li>
-  <li><p><strong>Issues(버그, 기능, 문의)관리를 할 수 있습니다.</strong><br>
+  <li><strong>Issues(버그, 기능, 문의)관리를 할 수 있습니다.</strong><br>
   이 장점 또한 협업에서 유리합니다.<br>
   <ul>
     <li> 개발자(dev), 사용자(user) 모두 작성 가능합니다.</li>
     <li> 버그와 함께 commit을 할 수 있고, 그 issue를 언제까지 마쳐야하는지 일정(기한)도 함께 올릴 수 있습니다. </li>
     <li> 버그, 개발 예정, 추가기능, 건의사항 등을 관리하는 기능으로 아주 유용합니다.</li>
-  </ul></p><br></li>
+  </ul><br></li>
   <li>Milestone로 Issues를 결합하여 마감일을 정하는 등의 활용이 가능합니다. <br><br></li>
   <li>터미널에서 commit과 함께 issue 완료 처리를 하려면 다음과 같은 명령어를 입력하면 됩니다. <br><br></li>
 </ol>
